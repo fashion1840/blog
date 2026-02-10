@@ -4,14 +4,18 @@
 
 set -e
 
-# 加载环境变量（token从.env文件读取）
+# 加载环境变量
 if [ -f "/root/.openclaw/workspace/blog-deploy/.env" ]; then
-    export $(grep -v '^#' /root/.openclaw/workspace/blog-deploy/.env | xargs)
+    set -a
+    source /root/.openclaw/workspace/blog-deploy/.env
+    set +a
 fi
 
-# 必需的环境变量检查
-: "${TAVILY_API_KEY:?需要设置TAVILY_API_KEY}"
-: "${GITHUB_TOKEN:?需要设置GITHUB_TOKEN}"
+# 检查必需变量
+if [ -z "$TAVILY_API_KEY" ] || [ -z "$GITHUB_TOKEN" ]; then
+    echo "错误: 请确保 .env 文件中设置了 TAVILY_API_KEY 和 GITHUB_TOKEN"
+    exit 1
+fi
 
 REPO_URL="https://${GITHUB_TOKEN}@github.com/fashion1840/blog.git"
 WORKDIR="/root/.openclaw/workspace/blog-deploy"
