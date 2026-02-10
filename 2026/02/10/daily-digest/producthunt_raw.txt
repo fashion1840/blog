@@ -1,6 +1,6 @@
 ## Answer
 
-Based on the latest launches from Product Hunt, notable entries include a SpaceX project prioritizing lunar exploration over Mars, Sol de Janeiro's innovative solid fragrance launch, Trinity Hunt Partners' new workforce services platform Allvia, Anua's PDRN Collagen Glow Facial Serum Spray, and a comparison between the Apple Watch and Oura Ring. These highlights reflect a diverse range of innovations across space technology, beauty, workforce services, skincare, and wearable tech.
+Based on the latest data, Product Hunt's recent launches include a SpaceX project prioritizing lunar exploration over Mars, Trinity Hunt Partners launching workforce services platform Allvia, Anua's PDRN Collagen Glow Facial Serum Spray debut, and Anthropic’s legal plug-in impacting legal technology.
 
 ---
 
@@ -9,10 +9,6 @@ Based on the latest launches from Product Hunt, notable entries include a SpaceX
 - **SpaceX prioritises lunar 'self-growing city' over Mars project: Musk - Times of India** (relevance: 7%)
   https://timesofindia.indiatimes.com/world/us/spacex-prioritises-lunar-self-growing-city-over-mars-project-musk/articleshow/128134560.cms
   Cleveland Cavaliers (02-09-2026) game preview: When and where to watch, expected lineup, injury report, prediction, and more game preview: When and where to watch, expected lineup, injury report, prediction, and more")John Tavares and Aryne Fuller combined net worth: Inside the $120M fortune of Toro...
-
-- **Sol de Janeiro taps into jelly trend with first solid fragrance launch - Cosmetics Business** (relevance: 7%)
-  https://cosmeticsbusiness.com/sol-de-janeiro-taps-into-jelly-trend-solid-fragrance
-  # Sol de Janeiro taps into jelly trend with first solid fragrance launch. From functional fragrances by Bella Hadid to skin-loving serums and everything in between, the Cosmetics Business team reveal their favourite beauty launches from 2025. Cosmetics Business picks: 10 must-buy February beauty lau...
 
 - **Trinity Hunt Partners Launches Workforce Services Platform, Allvia, With Investment in Melita Group - Business Wire** (relevance: 6%)
   https://www.businesswire.com/news/home/20260210325482/en/Trinity-Hunt-Partners-Launches-Workforce-Services-Platform-Allvia-With-Investment-in-Melita-Group
@@ -29,6 +25,10 @@ Based on the latest launches from Product Hunt, notable entries include a SpaceX
 - **Anthropic’s Legal Plug-In and the Quiet Rewiring of Legal Technology - Law.com** (relevance: 3%)
   https://www.law.com/legaltechnews/2026/02/09/anthropics-legal-plug-in-and-the-quiet-rewiring-of-legal-technology/
   Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. Dynamically explore and compare data on law firms, companies, individual lawyers, and industry trends. ## Unlock Access to Premier Legal Insights with Law.com Join th...
+
+- **Google Slashes Pixel 10 Pro XL to a Record Low Before Pixel 10a Arrives, Trade-In Brings the Price Down Even Further - Kotaku** (relevance: 3%)
+  https://kotaku.com/google-slashes-pixel-10-pro-xl-to-a-record-low-before-pixel-10a-trade-in-brings-the-price-down-even-further-2000666766
+  # Google Slashes Pixel 10 Pro XL to a Record Low Before Pixel 10a Arrives, Trade-In Brings the Price Down Even Further. It's not everyday you get to grab the latest and greatest Google Pixel 10 Pro XL for under $1,000. The Google Pixel 10 Pro XL offers the ultimate Pixel experience with its advanced...
 
 - **Video Secret Savings for heart health - ABC News** (relevance: 3%)
   https://abcnews.go.com/GMA/Shop/video/secret-savings-heart-health-129988577
