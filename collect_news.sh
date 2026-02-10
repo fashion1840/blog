@@ -15,6 +15,7 @@ fi
 
 WORKDIR="/root/.openclaw/workspace/blog-deploy"
 TIMESTAMP=$(date +%Y-%m-%d)
+TNOW=$(date +%H:%M)
 YEAR=$(date +%Y)
 MONTH=$(date +%m)
 DAY=$(date +%d)
@@ -185,24 +186,24 @@ echo "📝 已生成 ${HTML_FILE}"
 ARTICLE=$(cat << EOF
 <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fashion1840.github.io/daily-tech-news/${YEAR}/${MONTH}/${DAY}/daily-digest/">
+    <link itemprop="mainEntityOfPage" href="https://fashion1840.github.io/snail-tech-scoop/${YEAR}/${MONTH}/${DAY}/daily-digest/">
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="疯狂的蜗牛">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/daily-tech-news/images/logo.png">
+      <meta itemprop="image" content="/snail-tech-scoop/images/Logo.png">
     </span>
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="道听书途">
     </span>
     <header class="post-header">
       <h1 class="post-title" itemprop="name headline">
-        <a href="/daily-tech-news/${YEAR}/${MONTH}/${DAY}/daily-digest/" class="post-title-link" itemprop="url">每日科技摘要 - ${TIMESTAMP}</a>
+        <a href="/snail-tech-scoop/${YEAR}/${MONTH}/${DAY}/daily-digest/" class="post-title-link" itemprop="url">每日科技摘要 - ${TIMESTAMP}</a>
       </h1>
       <div class="post-meta">
         <span class="post-time">
           <span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i></span>
           <span class="post-meta-item-text">发表于</span>
-          <time title="创建时间：${TIMESTAMP} ${tnow}:00 +08:00" itemprop="dateCreated datePublished" datetime="${TIMESTAMP}T${tnow}:00+08:00">${TIMESTAMP}</time>
+          <time title="创建时间：${TIMESTAMP} ${TNOW}:00 +08:00" itemprop="dateCreated datePublished" datetime="${TIMESTAMP}T${TNOW}:00+08:00">${TIMESTAMP}</time>
         </span>
       </div>
     </header>
@@ -252,7 +253,7 @@ cd "$WORKDIR"
 git pull --rebase origin master || true
 git add "${YEAR}/${MONTH}/${DAY}/"
 git add index.html
-git commit -m "添加每日摘要 ${TIMESTAMP}（HTML格式，更新首页，仓库重命名）" || true
+git commit -m "添加每日摘要 ${TIMESTAMP}（仓库重命名为 snail-tech-scoop）" || true
 
 if git push origin master; then
     echo "🚀 推送完成！"
