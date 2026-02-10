@@ -14,11 +14,14 @@ if [ -z "$TAVILY_API_KEY" ] || [ -z "$GITHUB_TOKEN" ]; then
 fi
 
 WORKDIR="/root/.openclaw/workspace/blog-deploy"
-OUTPUT_DIR="${WORKDIR}/posts"
 TIMESTAMP=$(date +%Y-%m-%d)
-MARKDOWN_FILE="${OUTPUT_DIR}/${TIMESTAMP}-daily-digest.md"
+YEAR=$(date +%Y)
+MONTH=$(date +%m)
+DAY=$(date +%d)
+POST_DIR="${WORKDIR}/${YEAR}/${MONTH}/${DAY}/daily-digest"
+MARKDOWN_FILE="${POST_DIR}/index.md"
 
-mkdir -p "$OUTPUT_DIR"
+mkdir -p "$POST_DIR"
 
 echo "🔍 开始搜集24小时内的热门信息..."
 
@@ -26,64 +29,65 @@ echo "🔍 开始搜集24小时内的热门信息..."
 node "/root/.openclaw/workspace/skills/tavily-search/scripts/search.mjs" \
   "Hacker News top stories last 24 hours" \
   -n 8 --topic news --days 1 \
-  > "${OUTPUT_DIR}/hackernews_raw.txt" 2>/dev/null || echo "" > "${OUTPUT_DIR}/hackernews_raw.txt"
+  > "${POST_DIR}/hackernews_raw.txt" 2>/dev/null || echo "" > "${POST_DIR}/hackernews_raw.txt"
 
 # Reddit
 node "/root/.openclaw/workspace/skills/tavily-search/scripts/search.mjs" \
   "Reddit popular posts r/technology r/programming past 24 hours" \
   -n 8 --topic news --days 1 \
-  > "${OUTPUT_DIR}/reddit_raw.txt" 2>/dev/null || echo "" > "${OUTPUT_DIR}/reddit_raw.txt"
+  > "${POST_DIR}/reddit_raw.txt" 2>/dev/null || echo "" > "${POST_DIR}/reddit_raw.txt"
 
 # Product Hunt
 node "/root/.openclaw/workspace/skills/tavily-search/scripts/search.mjs" \
   "Product Hunt latest launches past 24 hours" \
   -n 8 --topic news --days 1 \
-  > "${OUTPUT_DIR}/producthunt_raw.txt" 2>/dev/null || echo "" > "${OUTPUT_DIR}/producthunt_raw.txt"
+  > "${POST_DIR}/producthunt_raw.txt" 2>/dev/null || echo "" > "${POST_DIR}/producthunt_raw.txt"
 
 echo "✅ 搜索完成，生成Markdown..."
 
 python3 - << 'PYEOF' > "${MARKDOWN_FILE}"
 import re
 from datetime import datetime
+import os
+
+# 从环境变量获取路径
+post_dir = os.environ.get('POST_DIR', '/tmp')
+year = os.path.basename(os.path.dirname(os.path.dirname(post_dir)))
+month = os.path.basename(os.path.dirname(post_dir))
+day = os.path.basename(post_dir.rstrip('/'))
 
 ts = datetime.now().strftime("%Y-%m-%d")
 tnow = datetime.now().strftime("%H:%M")
 
-# Hexo Front Matter（兼容标准Hexo主题）
+# Hexo Front Matter - 符合你的博客结构
 front_matter = f"""---
 title: 每日科技摘要 - {ts}
 date: {ts} {tnow}
 tags: [daily-digest, tech-news]
 categories: [科技资讯]
-description: 每日科技新闻摘要，包含Hacker News、Reddit和Product Hunt的最新热门内容
+layout: post
 ---
 """
 
 md = f"{front_matter}# 每日科技摘要\n\n> 📅 采集日期：{ts} {tnow} UTC\n> 📊 数据来源：Hacker News, Reddit, Product Hunt\n\n---\n\n"
 
 def clean_text(text, max_len=300):
-    """清理文本，提取前max_len字符作为摘要"""
-    # 移除多余空白
     text = re.sub(r'\s+', ' ', text)
     text = text.strip()
-    # 截断到合适长度
     if len(text) > max_len:
         text = text[:max_len].rsplit(' ', 1)[0] + '...'
     return text
 
 def parse_tavily(text):
     items = []
-    # 提取Answer作为整体摘要
     answer_match = re.search(r'## Answer\s+(.*?)(?=\n##|\Z)', text, re.DOTALL)
     overall_summary = clean_text(answer_match.group(1), 500) if answer_match else ""
 
-    # 提取Sources中的每一条
     sources_match = re.search(r'## Sources\s+(.*)', text, re.DOTALL)
     if not sources_match:
         return [], overall_summary
 
     src = sources_match.group(1)
-    # 分割条目
     entries = re.split(r'(?=^- \*\*)', src, flags=re.MULTILINE)
 
     for entry in entries:
@@ -91,19 +95,15 @@ def parse_tavily(text):
         if not entry:
             continue
 
-        # 标题
         title_match = re.search(r'- \*\*(.*?)\*\*', entry)
         title = title_match.group(1).strip() if title_match else '无标题'
 
-        # 相关性
         rel_match = re.search(r'\(relevance:\s*(\d+)%\)', entry)
         relevance = rel_match.group(1) if rel_match else None
 
-        # URL
         url_match = re.search(r'(https?://[^\s\)]+)', entry)
         url = url_match.group(1) if url_match else '#'
 
-        # 提取描述（去掉标题行、URL行、relevance行之后的内容）
         desc_lines = []
         for line in entry.split('\n')[1:]:
             line = line.strip()
@@ -147,9 +147,9 @@ def section(icon, name, fn):
     except Exception as e:
         return f"## {icon} {name}\n\n*读取失败*\n\n"
 
-md += section("📰", "Hacker News 热门", "/root/.openclaw/workspace/blog-deploy/posts/hackernews_raw.txt")
-md += section("🤖", "Reddit 科技/编程", "/root/.openclaw/workspace/blog-deploy/posts/reddit_raw.txt")
-md += section("🚀", "Product Hunt 新品", "/root/.openclaw/workspace/blog-deploy/posts/producthunt_raw.txt")
+md += section("📰", "Hacker News 热门", f"{post_dir}/hackernews_raw.txt")
+md += section("🤖", "Reddit 科技/编程", f"{post_dir}/reddit_raw.txt")
+md += section("🚀", "Product Hunt 新品", f"{post_dir}/producthunt_raw.txt")
 
 md += "---\n\n*本摘要由 OpenClaw 自动生成，每日更新*"
 
@@ -160,8 +160,8 @@ echo "📝 已生成 ${MARKDOWN_FILE}"
 
 cd "$WORKDIR"
 git pull --rebase origin master || true
-git add posts/
-git commit -m "更新每日摘要 ${TIMESTAMP}（Hexo格式+中文摘要）" || true
+git add "${YEAR}/${MONTH}/${DAY}/"
+git commit -m "添加每日摘要 ${ts}" || true
 git push origin master
 
 echo "🚀 推送完成！"
