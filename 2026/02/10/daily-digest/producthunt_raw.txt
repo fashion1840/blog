@@ -1,6 +1,6 @@
 ## Answer
 
-Based on the latest data, the most recent product launches include a new solid fragrance from Sol de Janeiro, a PDRN Collagen Glow Facial Serum Spray by Anua, and a comparison between the Apple Watch and Oura Ring on CNET. Additionally, there is a significant update on the kidnapping case of Nancy Guthrie, with a final ransom deadline set for 5 p.m. local time on Monday.
+Based on the latest launches from Product Hunt, notable entries include a new lunar city project by SpaceX as reported by Times of India, Sol de Janeiro's first solid fragrance launch as highlighted by Cosmetics Business, Trinity Hunt Partners' new workforce services platform Allvia, Anua's PDRN Collagen Glow Facial Serum Spray debut in NYC as covered by Beauty Packaging, and a comparison between Apple Watch and Oura Ring by CNET.
 
 ---
 
@@ -13,6 +13,10 @@ Based on the latest data, the most recent product launches include a new solid f
 - **Sol de Janeiro taps into jelly trend with first solid fragrance launch - Cosmetics Business** (relevance: 7%)
   https://cosmeticsbusiness.com/sol-de-janeiro-taps-into-jelly-trend-solid-fragrance
   # Sol de Janeiro taps into jelly trend with first solid fragrance launch. From functional fragrances by Bella Hadid to skin-loving serums and everything in between, the Cosmetics Business team reveal their favourite beauty launches from 2025. Cosmetics Business picks: 10 must-buy February beauty lau...
+
+- **Trinity Hunt Partners Launches Workforce Services Platform, Allvia, With Investment in Melita Group - Business Wire** (relevance: 6%)
+  https://www.businesswire.com/news/home/20260210325482/en/Trinity-Hunt-Partners-Launches-Workforce-Services-Platform-Allvia-With-Investment-in-Melita-Group
+  # Trinity Hunt Partners Launches Workforce Services Platform, Allvia, With Investment in Melita Group. DALLAS--(BUSINESS WIRE)--Trinity Hunt Partners, a growth-oriented private equity firm, today announced the formation of Allvia, a workforce services platform designed to deliver scalable HR and ben...
 
 - **Anua’s PDRN Innovation Event in NYC - Beauty Packaging** (relevance: 5%)
   https://www.beautypackaging.com/breaking-news/anuas-pdrn-innovation-event-in-nyc/
@@ -29,10 +33,6 @@ Based on the latest data, the most recent product launches include a new solid f
 - **Anthropic’s Legal Plug-In and the Quiet Rewiring of Legal Technology - Law.com** (relevance: 3%)
   https://www.law.com/legaltechnews/2026/02/09/anthropics-legal-plug-in-and-the-quiet-rewiring-of-legal-technology/
   Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. Dynamically explore and compare data on law firms, companies, individual lawyers, and industry trends. ## Unlock Access to Premier Legal Insights with Law.com Join th...
-
-- **N26 Launches ‘N26 for Under 18s’ in Strategic Push for Family Banking Market - The Fintech Times** (relevance: 3%)
-  https://thefintechtimes.com/n26-launches-n26-for-under-18s-in-strategic-push-for-family-banking-market/
-  * N26 Launches ‘N26 for Under 18s’ in Strategic Push for Family Banking Market. # N26 Launches ‘N26 for Under 18s’ in Strategic Push for Family Banking Market. #### ***N26**, the European digital bank, has launched ‘N26 for under 18s’, a new debit card and account product designed for children aged ...
 
 - **Video Secret Savings for heart health - ABC News** (relevance: 3%)
   https://abcnews.go.com/GMA/Shop/video/secret-savings-heart-health-129988577
