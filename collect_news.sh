@@ -19,8 +19,8 @@ YEAR=$(date +%Y)
 MONTH=$(date +%m)
 DAY=$(date +%d)
 POST_DIR="${WORKDIR}/${YEAR}/${MONTH}/${DAY}/daily-digest"
-# 输出HTML文件，不是markdown
 HTML_FILE="${POST_DIR}/index.html"
+INDEX_FILE="${WORKDIR}/index.html"
 
 mkdir -p "$POST_DIR"
 
@@ -48,7 +48,6 @@ echo "✅ 搜索完成，生成HTML..."
 
 python3 - << 'PYEOF' > "${HTML_FILE}"
 import re
-import os
 from datetime import datetime
 
 ts = datetime.now().strftime("%Y-%m-%d")
@@ -121,8 +120,7 @@ def generate_section(icon, name, items, summary=""):
     html += '</section>\n'
     return html
 
-# 读取原始数据
-post_dir = os.environ.get('POST_DIR', '/root/.openclaw/workspace/blog-deploy/2026/02/10/daily-digest')
+post_dir = "${POST_DIR}"
 try:
     with open(f"{post_dir}/hackernews_raw.txt") as f:
         hn_raw = f.read()
@@ -137,7 +135,6 @@ hn_items, hn_summary = parse_tavily(hn_raw)
 reddit_items, reddit_summary = parse_tavily(reddit_raw)
 ph_items, ph_summary = parse_tavily(ph_raw)
 
-# 生成HTML
 html = f'''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -184,10 +181,78 @@ PYEOF
 
 echo "📝 已生成 ${HTML_FILE}"
 
+# 生成要插入index.html的文章块
+ARTICLE=$(cat << EOF
+<article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fashion1840.github.io/daily-tech-news/${YEAR}/${MONTH}/${DAY}/daily-digest/">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="疯狂的蜗牛">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/daily-tech-news/images/logo.png">
+    </span>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="道听书途">
+    </span>
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+        <a href="/daily-tech-news/${YEAR}/${MONTH}/${DAY}/daily-digest/" class="post-title-link" itemprop="url">每日科技摘要 - ${TIMESTAMP}</a>
+      </h1>
+      <div class="post-meta">
+        <span class="post-time">
+          <span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i></span>
+          <span class="post-meta-item-text">发表于</span>
+          <time title="创建时间：${TIMESTAMP} ${tnow}:00 +08:00" itemprop="dateCreated datePublished" datetime="${TIMESTAMP}T${tnow}:00+08:00">${TIMESTAMP}</time>
+        </span>
+      </div>
+    </header>
+    <div class="post-body" itemprop="articleBody">
+      <p>每日科技新闻摘要，点击阅读原文查看详情。</p>
+    </div>
+    <footer class="post-footer"></footer>
+  </div>
+</article>
+EOF
+)
+
+echo "$ARTICLE" > "${POST_DIR}/index_article.html"
+
+# 更新index.html
+if [ -f "$INDEX_FILE" ]; then
+    echo "📝 更新首页 index.html..."
+
+    SECTION_PATTERN='<section id="posts" class="posts-expand">'
+    SECTION_LINE=$(grep -n "$SECTION_PATTERN" "$INDEX_FILE" | cut -d: -f1 | head -1)
+
+    if [ -n "$SECTION_LINE" ]; then
+        NEXT_ARTICLE_LINE=$(sed -n "${SECTION_LINE},$p" "$INDEX_FILE" | grep -n '<article' | head -1 | cut -d: -f1)
+        if [ -n "$NEXT_ARTICLE_LINE" ]; then
+            INSERT_LINE=$((SECTION_LINE + NEXT_ARTICLE_LINE - 1))
+        else
+            INSERT_LINE=$((SECTION_LINE + 1))
+        fi
+
+        TMP_FILE=$(mktemp)
+        head -n $((INSERT_LINE - 1)) "$INDEX_FILE" > "$TMP_FILE"
+        echo "" >> "$TMP_FILE"
+        echo "$ARTICLE" >> "$TMP_FILE"
+        echo "" >> "$TMP_FILE"
+        tail -n +$INSERT_LINE "$INDEX_FILE" >> "$TMP_FILE"
+        mv "$TMP_FILE" "$INDEX_FILE"
+
+        echo "✅ 已更新 index.html（在第${INSERT_LINE}行插入）"
+    else
+        echo "❌ 未找到posts section"
+    fi
+else
+    echo "❌ index.html 不存在"
+fi
+
 cd "$WORKDIR"
 git pull --rebase origin master || true
 git add "${YEAR}/${MONTH}/${DAY}/"
-git commit -m "添加每日摘要 ${ts}（HTML格式，Hexo兼容）" || true
+git add index.html
+git commit -m "添加每日摘要 ${TIMESTAMP}（HTML格式，更新首页，仓库重命名）" || true
 
 if git push origin master; then
     echo "🚀 推送完成！"
