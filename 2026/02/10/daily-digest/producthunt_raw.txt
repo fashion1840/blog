@@ -1,6 +1,6 @@
 ## Answer
 
-Based on the latest launches from Product Hunt, notable entries include a SpaceX project prioritizing lunar exploration over Mars, Sol de Janeiro's innovative solid fragrance launch, Trinity Hunt Partners' new workforce services platform Allvia, Anua's PDRN Collagen Glow Facial Serum Spray, and a comparison between Apple Watch and Oura Ring. These highlights reflect a diverse range of innovations across space exploration, beauty, workforce services, skincare, and wearable technology.
+Based on the latest launches from Product Hunt, notable entries include a SpaceX article focusing on lunar city plans, a Sol de Janeiro solid fragrance launch, Trinity Hunt Partners' workforce services platform Allvia, Anua's PDRN Collagen Glow Facial Serum Spray, and a comparison between Apple Watch and Oura Ring. The most recent information is from February 10, 2026.
 
 ---
 
@@ -26,10 +26,6 @@ Based on the latest launches from Product Hunt, notable entries include a SpaceX
   https://www.cnet.com/videos/apple-watch-vs-oura-ring-the-one-feature-that-tipped-the-scale/
   The Galaxy S26 Ultra Could Be Samsung's Best Yet, With These Changes. ### The Galaxy S26 Ultra Could Be Samsung's Best Yet, With These Changes. ### I Tried Meta's Neural Band in a Future Car. Asus and Xreal Just Made ROG Gaming Glasses, and They're Smooth. ### One More Thing. ### All Things Mobile. ...
 
-- **Nancy Guthrie latest: Final deadline looms in kidnapping of Savannah Guthrie’s mom - foxnews.com** (relevance: 4%)
-  https://www.foxnews.com/live-news/nancy-guthrie-disappearance-arizona-feb-9-live-updates
-  The FBI has said that alleged ransom notes have set a final deadline for Nancy Guthrie, the missing mother of NBC “Today” co-host Savannah Guthrie, for 5 p.m. local time Monday. Former Hostage Negotiator Dan O'Shea said on Sunday that the deadline approaching for a $6 million ransom in the case of N...
-
 - **Anthropic’s Legal Plug-In and the Quiet Rewiring of Legal Technology - Law.com** (relevance: 3%)
   https://www.law.com/legaltechnews/2026/02/09/anthropics-legal-plug-in-and-the-quiet-rewiring-of-legal-technology/
   Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. Dynamically explore and compare data on law firms, companies, individual lawyers, and industry trends. ## Unlock Access to Premier Legal Insights with Law.com Join th...
@@ -37,4 +33,8 @@ Based on the latest launches from Product Hunt, notable entries include a SpaceX
 - **Video Secret Savings for heart health - ABC News** (relevance: 3%)
   https://abcnews.go.com/GMA/Shop/video/secret-savings-heart-health-129988577
   ## Secret Savings for heart health. ### Lori Bergamotto has savings on brands such as Lifepro, Withings and many more. ### ABC News Live Presents. ### Lindsey Vonn's heartbreak as she crashes during race, airlifted to hospital. ### Police: 3 disabled men found dead inside driver's van. ### Congress ...
+
+- **Dexory launches ‘next-generation’ warehouse robot and new software - Robotics & Automation News** (relevance: 3%)
+  https://roboticsandautomationnews.com/2026/02/10/dexory-launches-next-generation-warehouse-robot-and-new-software/98832/
+  **Dexory, a provider of real-time warehouse data intelligence and robotics, has launched its next-generation autonomous robot and a new software feature, “Storage Health”.**. Both of these new capabilities enhance warehouse efficiency and visibility by delivering richer, more accurate operational da...
 
