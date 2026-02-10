@@ -1,0 +1,40 @@
+## Answer
+
+Based on the data, the most popular posts from r/technology and r/programming in the past 24 hours include discussions about EU measures to stop Meta from blocking AI rivals on WhatsApp, a civilian nuclear cooperation accord between the US and Armenia, Novo Nordisk's shares rising after Hims abandoned a weight-loss pill, and a rumor suggesting Intel has secured MediaTek’s Dimensity chips for its 14A process. The most recent and relevant information focuses on the EU's regulatory actions against Meta and the significant developments in AI and tech sectors.
+
+---
+
+## Sources
+
+- **EU threatens measures to stop Meta blocking AI rivals from WhatsApp - Reuters** (relevance: 25%)
+  https://www.reuters.com/video/watch/idRW398209022026RP1/
+  * ### 01:04 US interest rates to remain a 'challenge,' market expert says. * ### 01:50 German AI robotics company raises $100 million for US growth. ## EU threatens measures to stop Meta blocking AI rivals from WhatsApp. EU competition regulators have threatened to stop Meta Platforms from blocking ...
+
+- **US, Armenia sign civilian nuclear cooperation accord - Reuters** (relevance: 18%)
+  https://mobile.reuters.com/video/watch/idRW415410022026RP1/?chan=business
+  * ### Bitcoin at $70,000 an 'attractive entry point,' market expert says. * ### 01:13 Massive AI spending by Magnificent 7 'concerning' to market expert. * ### 01:04 US interest rates to remain a 'challenge,' market expert says. * ### 01:50 German AI robotics company raises $100 million for US growt...
+
+- **Novo Nordisk shares rise as Hims abandons $49 weight-loss pill - Reuters** (relevance: 16%)
+  https://mobile.reuters.com/video/watch/idRW389709022026RP1/?chan=business
+  * ### 01:04 US interest rates to remain a 'challenge,' market expert says. * ### 01:50 German AI robotics company raises $100 million for US growth. * ### 01:13 Bitcoin tumbles below $70,000, wiping out gains since Trump 2024 win. ## Novo Nordisk shares rise as Hims abandons $49 weight-loss pill. No...
+
+- **Wall Street advances as tech bounces further off of recent losses - Reuters** (relevance: 16%)
+  https://www.reuters.com/video/watch/idRW405709022026RP1
+  * ### Bitcoin at $70,000 an 'attractive entry point,' market expert says. * ### 01:13 Massive AI spending by Magnificent 7 'concerning' to market expert. * ### 01:04 US interest rates to remain a 'challenge,' market expert says. * ### 01:50 German AI robotics company raises $100 million for US growt...
+
+- **A Wild Rumor Suggests Intel Has Roped In MediaTek’s Dimensity Chips For Its 14A Process - Wccftech** (relevance: 15%)
+  https://wccftech.com/a-wild-rumor-suggests-intel-has-roped-in-mediateks-dimensity-chips-for-its-14a-process/
+  # A Wild Rumor Suggests Intel Has Roped In MediaTek’s Dimensity Chips For Its 14A Process. Intel appears to have secured a second major customer, this time for its bleeding-edge 14A process, with a wild rumor identifying MediaTek and its Dimensity chips as a source of marginal strength for Intel's s...
+
+- **Ancient Wonder of the World Will Rise Again - Newser** (relevance: 12%)
+  https://www.newser.com/story/383380/ancient-world-wonder-is-being-rebuilt-digitally.html
+  Image 8: Newser - Current News - Breaking Stories. Image 9: Newser - Current News - Breaking Stories. And every system is backed by a 24/7 monitoring system to help keep you safe.ADT | [SponsoredSponsored Shop Now](https://www.newser.com/story/383380/ancient-world-wonder-is-being-rebuilt-digitally.h...
+
+- **Picks and Shovels Still Rule the AI Tech Trade - The Wall Street Journal** (relevance: 11%)
+  https://www.wsj.com/tech/ai/picks-and-shovels-still-rule-the-ai-tech-trade-0bc1ddf1?gaa_at=eafs&gaa_n=AWEtsqdwe50Q8SwYGAD7wkidwwyl-BQrgxjg1tF0Q1IrsFzBBNAv12u6ahYL&gaa_ts=6989bbeb&gaa_sig=vrnNltfc55q1UGsfDxu9cS9xQz6rAjFgmzZc06VhNLhmPd3m70Om6gF_1dJebA5_t5fk00lQU-U7cZiwLhqdwA%3D%3D
+  This copy is for your personal, non-commercial use only. For non-personal use or to order multiple copies, please contact. https://www.wsj.com/tech/ai/picks-and-shovels-still-rule-the-ai-tech-trade-0bc1ddf1. # Picks and Shovels Still Rule the AI Tech Trade. ## Investors have punished big-spending te...
+
+- **Consumer Reports highlights best sales to shop in February | 2WTK - wfmynews2.com** (relevance: 11%)
+  https://www.wfmynews2.com/video/news/local/2-wants-to-know/consumer-reports-highlights-best-sales-to-shop-in-february-2wtk/83-2fd5bbd3-4b0c-4bef-ad67-f6429f9f1fd3
+  View top results now.Yahoo Search | Replacement windows | [SponsoredSponsored Learn More](https://search.yahoo.com/yhs/r "Search for replacement windows service near me"). This may be of interest to you!- | [SponsoredSponsored](https://www.wfmynews2.com/video/news/local/2-wants-to-know/consumer-repo...
+
