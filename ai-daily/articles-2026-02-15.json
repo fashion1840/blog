@@ -1,51 +1,72 @@
 [
   {
-    "title": "Artificial intelligence news: Chat AI, ChatGPT, AI generator ...",
-    "url": "https://www.nbcnews.com/artificial-intelligence",
-    "summary": "The latest news and top stories on artificial intelligence, including ChatGPT, AI Chatbot and Bard. Large language models like ChatGPT use a complicated series of equations to understand and",
-    "domain": "www.nbcnews.com",
-    "score": 0.99509466
+    "title": "Helping AI agents search to get the best results out of ... - MIT News",
+    "url": "https://news.mit.edu/2026/helping-ai-agents-search-to-get-best-results-from-llms-0205",
+    "summary": "[Skip to content ↓](https://news.mit.edu/2026/helping-ai-agents-search-to-get-best-results-from-llms-0205#main). [MIT Top Menu↓](https://news.mit.edu/2026/helping-ai-agents-search-to-get-best-results-from-llms-0205#tle-nav--menu). *   [News](https://news.mit.edu/). [Browse](https://news.mit.edu/2026/helping-ai-agents-search-to-get-best-results-from-llms-0205#site-nav--browse). [](https://news.mit.edu/2026/helping-ai-agents-search-to-get-best-results-from-llms-0205). [View All](https://news.mit.e",
+    "domain": "news.mit.edu",
+    "score": 0.66699636
   },
   {
-    "title": "AI News & Artificial Intelligence | TechCrunch",
-    "url": "https://techcrunch.com/category/artificial-intelligence/",
-    "summary": "Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.",
-    "domain": "techcrunch.com",
-    "score": 0.909907
+    "title": "Artificial intelligence | MIT News | Massachusetts Institute of ...",
+    "url": "https://news.mit.edu/topic/artificial-intelligence2",
+    "summary": "Helping AI agents search to get the best results out of large language models. EnCompass executes AI agent programs by backtracking and",
+    "domain": "news.mit.edu",
+    "score": 0.6205532
   },
   {
-    "title": "Artificial Intelligence - Latest AI News and Analysis - WSJ.com",
-    "url": "https://www.wsj.com/tech/ai",
-    "summary": "The latest artificial intelligence news coverage focusing on the technology, tools and the companies building AI technology.",
-    "domain": "www.wsj.com",
-    "score": 0.9079672
+    "title": "Recent Advances in Generative AI and Large Language Models",
+    "url": "https://arxiv.org/abs/2407.14962",
+    "summary": "[Skip to main content](https://arxiv.org/abs/2407.14962#content). [Help](https://info.arxiv.org/help) | [Advanced Search](https://arxiv.org/search/advanced). *   [Login](https://arxiv.org/login). *   [Help Pages](https://info.arxiv.org/help). *   [About](https://info.arxiv.org/about). [Submitted on 20 Jul 2024 ([v1](https://arxiv.org/abs/2407.14962v1)), last revised 23 Aug 2024 (this version, v5)]. [View PDF](https://arxiv.org/pdf/2407.14962)[HTML (experimental)](https://arxiv.org/html/2407.1496",
+    "domain": "arxiv.org",
+    "score": 0.6102915
   },
   {
-    "title": "AI News | Latest Headlines and Developments | Reuters",
-    "url": "https://www.reuters.com/technology/artificial-intelligence/",
-    "summary": "[Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv](/differentiator/). [Subscribe](https://www.reuters.com/account/subscribe/offer/&journeyStart=navigation). # Artificial Intelligence. How Artificial Intelligence is creating the next normal. * [Nvidia CEO won't attend India AI summit next week](/world/india/nvidia-ceo-huang-wont-attend-india-ai-summit-next-week-company-saus-2026-02-14/). Nvidia said Jensen Huang will not travel because of \"unforeseen ",
-    "domain": "www.reuters.com",
-    "score": 0.86613256
+    "title": "Research - Anthropic",
+    "url": "https://www.anthropic.com/research",
+    "summary": "Our research teams investigate the safety, inner workings, and societal impacts of AI models – so that artificial intelligence has a positive impact as it becomes increasingly capable. The mission of the Interpretability team is to discover and understand how large language models work internally, as a foundation for AI safety and positive outcomes. #### Alignment faking in large language models. The Alignment team works to understand the risks of AI models and develop ways to ensure that future",
+    "domain": "www.anthropic.com",
+    "score": 0.5792344
   },
   {
-    "title": "AI News | Latest News | Insights Powering AI-Driven Business ...",
-    "url": "https://www.artificialintelligence-news.com/",
-    "summary": "*   [Categories](https://www.artificialintelligence-news.com/#). *   [AI and Us](https://www.artificialintelligence-news.com/categories/ai-and-us/). *   [World of Work](https://www.artificialintelligence-news.com/categories/ai-and-us/world-of-work/). *   [AI in Action](https://www.artificialintelligence-news.com/categories/ai-in-action/). *   [Marketing AI](https://www.artificialintelligence-news.com/categories/ai-in-action/marketing-ai/). *   [Utilities](https://www.artificialintelligence-news.",
-    "domain": "www.artificialintelligence-news.com",
-    "score": 0.70416015
+    "title": "Tracing the thoughts of a large language model - Anthropic",
+    "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+    "summary": "Knowing how models like Claude *think* would allow us to have a better understanding of their abilities, as well as help us ensure that they’re doing what we intend them to. In the first paper, we extend our prior work locating interpretable concepts (\"features\") inside a model to link those concepts together into computational \"circuits\", revealing parts of the pathway that transforms the words that go into Claude into the words that come out. Recently-released models like Claude 3.7 Sonnet can",
+    "domain": "www.anthropic.com",
+    "score": 0.5550741
   },
   {
-    "title": "Artificial Intelligence News -- ScienceDaily",
-    "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-    "summary": "[Researchers Tested AI Against 100,000 Humans on Creativity](https://www.sciencedaily.com/releases/2026/01/260125083356.htm). [The Human Brain May Work More Like AI Than Anyone Expected](https://www.sciencedaily.com/releases/2026/01/260120000308.htm). [A Tiny Light Trap Could Unlock Million Qubit Quantum Computers](https://www.sciencedaily.com/releases/2026/02/260201223737.htm). Researchers Warn Quantum Computers Have Serious Security Flaws](https://www.sciencedaily.com/releases/2026/01/26012000",
-    "domain": "www.sciencedaily.com",
-    "score": 0.6334103
+    "title": "Hugging Face – The AI community building the future.",
+    "url": "https://huggingface.co/",
+    "summary": "The AI community building the future. The platform where the machine learning community collaborates on models, datasets, and applications. Explore AI Apps.",
+    "domain": "huggingface.co",
+    "score": 0.49260366
   },
   {
-    "title": "Artificial intelligence | AP News",
-    "url": "https://apnews.com/hub/artificial-intelligence",
-    "summary": "Don't miss an update on the latest artificial intelligence news from The Associated Press.",
-    "domain": "apnews.com",
-    "score": 0.26435834
+    "title": "[2601.13749] Pro-AI Bias in Large Language Models - arXiv.org",
+    "url": "https://arxiv.org/abs/2601.13749",
+    "summary": "Large language models (LLMs) are increasingly employed for decision-support across multiple domains. We investigate whether these models display",
+    "domain": "arxiv.org",
+    "score": 0.48703963
+  },
+  {
+    "title": "Google DeepMind",
+    "url": "https://www.deepmind.com/",
+    "summary": "Artificial intelligence could be one of humanity's most useful inventions. We research and build safe artificial intelligence systems.",
+    "domain": "www.deepmind.com",
+    "score": 0.3943881
+  },
+  {
+    "title": "Publications - Google DeepMind",
+    "url": "https://www.deepmind.com/publications/safely-interruptible-agents",
+    "summary": "## Explore our next generation AI systems. Generate high-quality images from text Lyria. Generate and explore interactive worlds Gemini Robotics. Build responsible AI applications at scale. ## Our latest AI breakthroughs and updates from the lab. Generate and explore interactive worlds AlphaGo. Mastering the game of Go Gemini Robotics. Fast and accurate AI weather forecasting Weather Lab. Test our experimental weather models. ## Our mission is to build AI responsibly to benefit humanity. Learn a",
+    "domain": "www.deepmind.com",
+    "score": 0.35756806
+  },
+  {
+    "title": "How ChatGPT and our foundation models are developed - OpenAI",
+    "url": "https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-language-models-are-developed",
+    "summary": "This article provides an overview of the publicly available information we use to help develop these models and how we collect and use that information in compliance with privacy laws. To understand how we collect and use information from users of our services, including how to opt out of having ChatGPT conversations used to help teach our models, please see our Privacy Policy and this help center article. We use training data solely to develop the model’s capabilities—such as prediction, reason",
+    "domain": "help.openai.com",
+    "score": 0.18795142
   }
 ]
