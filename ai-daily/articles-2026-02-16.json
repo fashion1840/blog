@@ -1,30 +1,16 @@
 [
   {
-    "title": "Introducing computer use, a new Claude 3.5 Sonnet, and ... - Anthropic",
-    "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
-    "summary": "Claude 3.5 Sonnet is the first frontier AI model to offer computer use in public beta. At this stage, it is still experimental—at times",
-    "domain": "www.anthropic.com",
-    "score": 0.98445636
-  },
-  {
     "title": "Home \\ Anthropic",
     "url": "https://www.anthropic.com/",
     "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
     "domain": "www.anthropic.com",
-    "score": 0.97719735
+    "score": 0.55623144
   },
   {
     "title": "Introducing Claude 4 - Anthropic",
     "url": "https://www.anthropic.com/news/claude-4",
     "summary": "Claude Opus 4 is the world's best coding model, with sustained performance on complex, long-running tasks and agent workflows.",
     "domain": "www.anthropic.com",
-    "score": 0.9314625
-  },
-  {
-    "title": "Gemini 3 — Google DeepMind",
-    "url": "https://www.deepmind.com/gemini",
-    "summary": "Gemini 3 is our most intelligent model yet. With state-of-the-art reasoning to help you learn, build, and plan anything.",
-    "domain": "www.deepmind.com",
-    "score": 0.04177388
+    "score": 0.51032627
   }
 ]
