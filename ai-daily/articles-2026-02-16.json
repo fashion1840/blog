@@ -1,51 +1,30 @@
 [
   {
-    "title": "Artificial Intelligence - Latest AI News and Analysis - WSJ.com",
-    "url": "https://www.wsj.com/tech/ai",
-    "summary": "[![Image 2: TikTok’s Chinese Parent Has an App to Replace Hollywood](https://images.wsj.net/im-39195723?width=640&height=427)](https://www.wsj.com/tech/ai/tiktoks-chinese-parent-has-an-app-to-replace-hollywood-7b31c6df?mod=ai_lead_pos1). [![Image 7: Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid](https://images.wsj.net/im-92224393?size=1&width=74)](https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=ai_trendingnow_articl",
-    "domain": "www.wsj.com",
-    "score": 0.68191797
+    "title": "Introducing computer use, a new Claude 3.5 Sonnet, and ... - Anthropic",
+    "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "summary": "Claude 3.5 Sonnet is the first frontier AI model to offer computer use in public beta. At this stage, it is still experimental—at times",
+    "domain": "www.anthropic.com",
+    "score": 0.98445636
   },
   {
-    "title": "AI News & Artificial Intelligence | TechCrunch",
-    "url": "https://techcrunch.com/category/artificial-intelligence/",
-    "summary": "* [AI](https://techcrunch.com/category/artificial-intelligence/). + [Jagmeet Singh](https://techcrunch.com/author/jagmeet-singh/). + [Anthony Ha](https://techcrunch.com/author/anthony-ha/). + [Anthony Ha](https://techcrunch.com/author/anthony-ha/). + [Anthony Ha](https://techcrunch.com/author/anthony-ha/). * [AI](https://techcrunch.com/category/artificial-intelligence/). + [Jagmeet Singh](https://techcrunch.com/author/jagmeet-singh/). * [AI](https://techcrunch.com/category/artificial-intelligenc",
-    "domain": "techcrunch.com",
-    "score": 0.68064564
+    "title": "Home \\ Anthropic",
+    "url": "https://www.anthropic.com/",
+    "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "domain": "www.anthropic.com",
+    "score": 0.97719735
   },
   {
-    "title": "Artificial intelligence news: Chat AI, ChatGPT, AI generator ...",
-    "url": "https://www.nbcnews.com/artificial-intelligence",
-    "summary": "[Matt Nighswander / NBC News](https://www.nbcnews.com/tech/security/ai-toy-maker-exposed-thousands-responses-kids-senators-miko-rcna258326). ## [Actor takes legal action to stop Albania's government from using her image for 'AI minister'](https://www.nbcnews.com/world/europe/albania-artificial-intelligence-government-minister-diella-actor-bisha-rcna258727). * [Drew Angerer / Getty Images file](https://www.nbcnews.com/politics/2026-election/super-pac-backed-ai-titans-pledges-5-million-boost-byron",
-    "domain": "www.nbcnews.com",
-    "score": 0.6304352
+    "title": "Introducing Claude 4 - Anthropic",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "summary": "Claude Opus 4 is the world's best coding model, with sustained performance on complex, long-running tasks and agent workflows.",
+    "domain": "www.anthropic.com",
+    "score": 0.9314625
   },
   {
-    "title": "Artificial Intelligence News -- ScienceDaily",
-    "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-    "summary": "[Researchers Tested AI Against 100,000 Humans on Creativity](https://www.sciencedaily.com/releases/2026/01/260125083356.htm). [The Human Brain May Work More Like AI Than Anyone Expected](https://www.sciencedaily.com/releases/2026/01/260120000308.htm). [A Tiny Light Trap Could Unlock Million Qubit Quantum Computers](https://www.sciencedaily.com/releases/2026/02/260201223737.htm). Researchers Warn Quantum Computers Have Serious Security Flaws](https://www.sciencedaily.com/releases/2026/01/26012000",
-    "domain": "www.sciencedaily.com",
-    "score": 0.585789
-  },
-  {
-    "title": "AI News | Latest News | Insights Powering AI-Driven Business ...",
-    "url": "https://www.artificialintelligence-news.com/",
-    "summary": "+ [AI and Us](https://www.artificialintelligence-news.com/categories/ai-and-us/). - [Environment & Sustainability](https://www.artificialintelligence-news.com/categories/ai-and-us/environment-sustainability/). - [World of Work](https://www.artificialintelligence-news.com/categories/ai-and-us/world-of-work/). + [AI in Action](https://www.artificialintelligence-news.com/categories/ai-in-action/). - [Creative Industries](https://www.artificialintelligence-news.com/categories/ai-in-action/creative-i",
-    "domain": "www.artificialintelligence-news.com",
-    "score": 0.5829428
-  },
-  {
-    "title": "AI News | Latest Headlines and Developments | Reuters",
-    "url": "https://www.reuters.com/technology/artificial-intelligence/",
-    "summary": "3 days ago · Explore the latest artificial intelligence news with Reuters - from AI breakthroughs and technology trends to regulation, ethics, business and global impact.",
-    "domain": "www.reuters.com",
-    "score": 0.53196377
-  },
-  {
-    "title": "Artificial intelligence | AP News",
-    "url": "https://apnews.com/hub/artificial-intelligence",
-    "summary": "Don't miss an update on the latest artificial intelligence news from The Associated Press.",
-    "domain": "apnews.com",
-    "score": 0.29841006
+    "title": "Gemini 3 — Google DeepMind",
+    "url": "https://www.deepmind.com/gemini",
+    "summary": "Gemini 3 is our most intelligent model yet. With state-of-the-art reasoning to help you learn, build, and plan anything.",
+    "domain": "www.deepmind.com",
+    "score": 0.04177388
   }
 ]
