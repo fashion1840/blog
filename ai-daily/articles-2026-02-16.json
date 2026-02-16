@@ -1,0 +1,72 @@
+[
+  {
+    "title": "What Is Artificial Intelligence? Definition, Uses, and Types",
+    "url": "https://www.coursera.org/articles/what-is-artificial-intelligence",
+    "summary": "Despite the many philosophical disagreements over whether “true” intelligent machines actually exist, when most people use the term AI today, they’re referring to a suite of machine learning-powered technologies, such as Chat GPT or computer vision, that enable machines to perform tasks that previously only humans can do like generating written content, steering a car, or analyzing data. **Weak AI**, meanwhile, refers to the narrow use of widely available AI technology, like machine learning or ",
+    "domain": "www.coursera.org",
+    "score": 0.9449947
+  },
+  {
+    "title": "OpenAI",
+    "url": "https://openai.com/",
+    "summary": "*   [API Platform(opens in a new window)](https://platform.openai.com/). *   [Research](https://openai.com/research/index/). *   [Safety](https://openai.com/safety/). *   [For Business](https://openai.com/business/). *   [For Developers](https://openai.com/api/). *   [Sora](https://openai.com/sora/). *   [Codex](https://openai.com/codex/). *   [Stories](https://openai.com/stories/). *   [Company](https://openai.com/about/). *   [Research Index](https://openai.com/research/index/). *   [Research ",
+    "domain": "openai.com",
+    "score": 0.93991333
+  },
+  {
+    "title": "Artificial intelligence - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "summary": "Artificial intelligence ( AI ) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to",
+    "domain": "en.wikipedia.org",
+    "score": 0.69097626
+  },
+  {
+    "title": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "summary": "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+    "domain": "chatgpt.com",
+    "score": 0.1666754
+  },
+  {
+    "title": "Artificial intelligence ( AI ) | Definition, Examples, Types ...",
+    "url": "https://www.britannica.com/technology/artificial-intelligence",
+    "summary": "2 days ago · artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings.",
+    "domain": "www.britannica.com",
+    "score": 0.08819005
+  },
+  {
+    "title": "ISO - What is artificial intelligence ( AI )?",
+    "url": "https://www.iso.org/artificial-intelligence/what-is-ai",
+    "summary": "At its core, AI refers to computer systems capable of performing tasks that typically require human intelligence , such as reasoning, learning, perception and language understanding. These systems analyse vast datasets, recognize patterns and make decisions with unprecedented speed and accuracy.",
+    "domain": "www.iso.org",
+    "score": 0.038178276
+  },
+  {
+    "title": "What is artificial intelligence ( AI )? - IBM",
+    "url": "https://www.ibm.com/think/topics/artificial-intelligence",
+    "summary": "Artificial intelligence ( AI ) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy.",
+    "domain": "www.ibm.com",
+    "score": 0.01941935
+  },
+  {
+    "title": "Google AI - How we're making AI helpful for everyone",
+    "url": "https://ai.google/",
+    "summary": "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+    "domain": "ai.google",
+    "score": 0.01107216
+  },
+  {
+    "title": "Google Gemini",
+    "url": "https://gemini.google.com/",
+    "summary": "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI .",
+    "domain": "gemini.google.com",
+    "score": 0.010169657
+  },
+  {
+    "title": "What is Artificial Intelligence? - NASA",
+    "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+    "summary": "### Core Survey by NASA’s Roman Mission Will Unveil Universe’s Dark Side. ### Core Survey by NASA’s Roman Mission Will Unveil Universe’s Dark Side. ### Core Survey by NASA’s Roman Mission Will Unveil Universe’s Dark Side. There is no single, simple definition of artificial intelligence because AI tools are capable of a wide range of tasks and outputs, but NASA follows the definition of AI found within EO 13960, which references Section 238(g) of the National Defense Authorization Act of 2019. * ",
+    "domain": "www.nasa.gov",
+    "score": 0.008711384
+  }
+]
